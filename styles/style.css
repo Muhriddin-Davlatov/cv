@@ -1,0 +1,211 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --color-dark: #333333;
+  --color-pink: #A56FFF;
+  --color-second-dark: #444444;
+  --color-gray: #999999;
+  --bg-color: #E5E5E5;
+}
+
+body {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  line-height: 14px;
+}
+
+.portfolio {
+  width: 612px;
+  margin: 0px auto;
+  display: flex;
+  padding: 10px 0px;
+}
+
+.border {
+  border: 1px solid #EEEEEE;
+  margin: 8px 0px;
+}
+
+.date {
+  color: var(--color-pink);
+}
+
+.content__title {
+  font-weight: 700;
+  color: var(--color-second-dark);
+}
+
+.platzi__master {
+  color: var(--color-gray);
+}
+
+.title {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.portfolio__skills {
+  text-align: justify;
+  background: linear-gradient(90deg, #9967BA 0%, #0071E3 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.portfolio__txt {
+  text-align: justify;
+  color: var(--color-second-dark);
+}
+
+/* portfolio bio */
+
+.portfolio__bio {
+  width: 222px;
+}
+
+.portfolio__body {
+  padding: 0px 20px;
+}
+
+.portfolio__body_list {
+  margin: 16px 0px 0px 0px;
+}
+
+.portfolio__list_item {
+  display: flex;
+  align-items: center;
+  color: var(--color-dark);
+}
+
+.portfolio__list_img {
+  margin-right: 8px;
+}
+
+.portfolio__list_link {
+  color: var(--color-dark);
+}
+
+.formation__title {
+  color: var(--color-dark);
+}
+
+.formation__content {
+  margin: 8px 0px;
+}
+
+.language__title {
+  color: var(--color-second-dark);
+}
+
+.language__content {
+  color: var(--color-second-dark);
+}
+
+.projects {
+  padding: 0px 14px 0px 20px;
+}
+
+.project__content {
+  margin-bottom: 8px;
+}
+
+.portfolio__link {
+  display: flex;
+  align-items: center;
+}
+
+.portfolio__link_title {
+  font-weight: 700;
+  text-align: justify;
+  color: var(--color-second-dark);
+}
+
+.portfolio__icon {
+  margin: 0px 4px;
+}
+
+.project__content_info {
+  text-align: justify;
+  color: var(--color-second-dark);
+}
+
+/* /portfolio bio */
+
+/* portfolio content */
+
+.portfolio__content {
+  width: 390px;
+  padding: 21px 20px 0px 18px;
+}
+
+.portfolio__promo {
+  margin-bottom: 37.45px;
+}
+
+.portfolio__promo_title {
+  font-family: 'Source Code Pro';
+  font-weight: 200;
+  font-size: 28px;
+  line-height: 35px;
+  text-transform: uppercase;
+  color: var(--color-dark);
+}
+
+.portfolio__second_title {
+  font-family: 'Source Code Pro';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #9967BA 0%, #0071E3 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.portfolio__promo_text {
+  text-align: justify;
+  color: var(--color-second-dark);
+  margin: 8px 0px;
+}
+
+.works {
+  margin-top: 10px;
+}
+
+.works__title {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 12px;
+  text-align: justify;
+  text-transform: uppercase;
+  color: var(--color-second-dark);
+  margin-bottom: 8px;
+}
+
+.todoconta {
+  margin-bottom: 16px;
+}
+
+.accountant {
+  margin: 16px 0px;
+}
+
+.circle {
+  list-style: circle;
+  margin-left: 15px;
+}
+
+.online__teacher {
+  margin-top: 16px;
+}
+
+/* /portfolio content */
